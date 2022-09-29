@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Phase2PractiseProject1GetandPost</title>
+</head>
+<style>
+.post
+{
+background-color:green;
+color:white;
+}
+.get
+{
+background-color:red;
+color:white;
+}
+.main
+{
+background-color:fuchsia;
+color:white;
+}
+</style>
+<body>
+<table border="1" class="main">
+<tr> <td colspan=2"> Postmethod Servelt and GetMethod Servlet Example</td>
+</tr>
+<tr>
+	<td>
+		<table border="1" class="get">
+		<form action="GetServlet" method="get">
+		<tr>
+			<td colspan="2"> GetMethod Servelt Example</td>
+		</tr>
+		<tr>
+		
+			<td>Name:</td>
+			<td><input type="text" name="fname" required></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="submit" value="show_Name using doGet"></td>
+		</tr>
+		</form>
+		</table></td>
+	<td>
+		<table border="1" class="post">
+		<form action="PostServlet" method="POST">
+		<tr>
+			<td colspan="2"> PostServlet Example</td>
+		</tr>
+		<tr>
+			<td> FullName</td>
+			<td><input type="text" name="fullName" required></td>
+		</tr>
+		<tr>
+			<td colspan="2"> <input type="submit"  value="Show FullName using DoPost"></td>
+		</tr>
+		</form>
+		</table>
+	</td>
+</tr>
+</table>
+
+</body>
+</html>

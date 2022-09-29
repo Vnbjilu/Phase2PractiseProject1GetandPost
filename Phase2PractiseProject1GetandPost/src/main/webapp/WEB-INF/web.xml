@@ -9,4 +9,24 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>GetServlet</display-name>
+    <servlet-name>GetServlet</servlet-name>
+    <servlet-class>vikas.RatanRaman.GetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetServlet</servlet-name>
+    <url-pattern>/GetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PostServlet</display-name>
+    <servlet-name>PostServlet</servlet-name>
+    <servlet-class>vikas.RatanRaman.PostServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostServlet</servlet-name>
+    <url-pattern>/PostServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
